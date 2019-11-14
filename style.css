@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  color: #15181E;
+  background: white;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 36px;
+  color: #15181E;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  color: #171A21;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2C2E35;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 60%;
+  margin: 32px auto;
+}
+
+.vertical-spacing-60 {
+  margin: 60px 0px;
+}
+
+.link{
+  text-decoration: none;
+  color: red;
+  font-size: 50px;
+}
+
+.btn-red {
+  background-color: #ffffff;
+  color: red;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: red;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.red {
+  color: red;
+}
+
+#intro p {
+  margin-bottom: 64px;
+}
+
+#intro img {
+  margin-bottom: 16px;
+  width: 20%;
+}
+
+#intro h1 {
+  margin-bottom: 64px;
+}
+
+#footer a {
+  font-size: 45px;
+  color: #15181E;
+}
+
+#footer a:hover {
+  color: #171A21;
+  }
+
+
+/*Media queries*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #intro img {
+    width: 20%;
+  }
+
+  p {
+    font-size: 150%;
+    line-height: 150%;
+  }
+
+  h1, h2, h3 {
+    font-size: 150%;
+    line-height: 150%;
+  }
+
+  .btn-red {
+    font-size: 150%;
+  }
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #intro img {
+    width: 40%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #intro img {
+    width: 60%;
+  }
+}
